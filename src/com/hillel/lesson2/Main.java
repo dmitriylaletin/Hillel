@@ -1,0 +1,74 @@
+package com.hillel.lesson2;
+
+public class Main {
+
+    public static void main(String[] args) {
+        byte a=-2;
+        short b=32;
+        long c=50;
+        float d=5.2f;
+        char e='X';
+        boolean IsTrue = true;
+        String message = "don't panic";
+        System.out.println(message);
+        System.out.println("geronimo");
+        int p=20,s=5,t=8;
+        double q=3.267,u=4.902,o=7.018;
+        float result =d+a-b;
+        System.out.println(result);
+        float result1 = d*a-b;
+        System.out.println(result1);
+        float result2 = d-a-b;
+        System.out.println(result2);
+        float result3 = d+p+s;
+        System.out.println(result3);
+        double result4 = q-a*b;
+        System.out.println(result4);
+        long result5 = a+b+c;
+        System.out.println(result5);
+        long result6 = b-a+c;
+        System.out.println(result6);
+        long result7 = b/a+c;
+        System.out.println(result7);
+        int result8 = p-s+a;
+        System.out.println(result8);
+        int result9 = t*s-p;
+        System.out.println(result9);
+        int g = 3;
+        g+=10;
+        System.out.println(g);
+        int h = 5;
+        h-=2;
+        System.out.println(h);
+        int i = 9;
+        i*=8;
+        System.out.println(i);
+        int j = 12;
+        j/=6;
+        System.out.println(j);
+        int k = 103;
+        k%=25;
+        System.out.println(k);
+        int l = 4;
+        l+=15;
+        System.out.println(l);
+        int m = 19;
+        m-=23;
+        System.out.println(m);
+        int n = 26;
+        n*=100;
+        System.out.println(n);
+        int x = 33;
+        x/=11;
+        System.out.println(x);
+        int y = 146;
+        y%=12;
+        System.out.println(y);
+        int z = 12;
+        System.out.println (x<z);
+        System.out.println (x!=z);
+        System.out.println (x<=z);
+        System.out.println (y==z);
+        System.out.println (y>x);
+    }
+}
